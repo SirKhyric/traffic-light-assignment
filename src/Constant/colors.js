@@ -1,3 +1,3 @@
-const colors = ['red', 'green', 'yellow'];
+export const colors = ['red', 'yellow', 'green'];
 
-export default colors;
+

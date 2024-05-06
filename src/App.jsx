@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import FunctionTrafficLight from './Components/Functional-Traffic-Light'
 import ClassTrafficLight from './Components/Class-Traffic-Light'
-import colors from './Constant/colors'
+import { colors } from './Constant/colors'
 
 
 
@@ -13,6 +13,5 @@ function App() {
     </div>
   )
 }
-
 
 export default App

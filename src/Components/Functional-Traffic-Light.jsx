@@ -7,7 +7,7 @@ function FunctionTrafficLight({ myColors }) {
   const [currentColorIndex, setCurrentColorIndex] = useState(0); 
 
   const nextState = () => {
-    setCurrentColorIndex((currentColorIndex + 1) % myColors.length); 
+    setCurrentColorIndex((currentColorIndex + 2) % myColors.length); 
   };
 
   return (
