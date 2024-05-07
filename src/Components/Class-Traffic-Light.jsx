@@ -15,17 +15,15 @@ class ClassTrafficLight extends Component {
   };
 
   render() {
-    const { currentColorIndex } = this.state;
-    const { myColors } = this.props;
 
     return (
       <div>
         <h2>Class Component</h2>
         <div className="main-container">
-          {myColors.map((color, index) => (
+          {this.props.myColors.map((color, index) => (
             <div
               key={index}
-              className={`${color}-light ${index === currentColorIndex && 'active'}`}
+              className={`${color}-light ${index === this.state.currentColorIndex && 'active'}`}
             ></div>
           ))}
           <div className="the-buttons">
